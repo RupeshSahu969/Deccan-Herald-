@@ -28,12 +28,12 @@ const Technology = () => {
   // }, []);
 
   if(data.length ===0){
-    const API="0262fcb147b7460fa66ab22d917cb183"
-    axios.get(`https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=${API}`)
+    // const API="0262fcb147b7460fa66ab22d917cb183"
+    axios.get("https://create-newapi.herokuapp.com/Technology")
 .then((response) => {
   console.log(response)
 
-  setData(response.data.articles)
+  setData(response.data)
 })
   }
 },[])

@@ -18,12 +18,12 @@ const SportDetails = () => {
   console.log(index,"useparambusiness")
 
   useEffect(()=>{
-    axios.get(`https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=6f43be9f49cf4702b914421834ff3c3e`)
+    axios.get("https://create-newapi.herokuapp.com/Sports")
     .then((r)=>{
       
         console.log(r)
   
-        setEnterDet(r.data.articles[`${index}`])
+        setEnterDet(r.data[`${index}`])
     })
 },[index])
   return (

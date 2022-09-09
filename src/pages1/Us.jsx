@@ -19,18 +19,21 @@ const Us = () => {
 
   const[data,setData] =useState([])
 
-    useEffect(() => {
-    
-    
-    
-    axios.get("https://newsapi.org/v2/top-headlines?country=us&apiKey=b4a2302a208d497c84c94fa9944caf08")
-    .then((response) => {
-      console.log(response)
-    
-      setData(response.data.articles)
-    
-    })
-    },[]);
+  useEffect(() => {
+    // 0262fcb147b7460fa66ab22d917cb183
+  const API = "0262fcb147b7460fa66ab22d917cb183"
+    if(data.length === 0){
+      axios({
+        url: "https://create-newapi.herokuapp.com/US",
+        method: "GET",
+      }).then((r) => {
+        setData(r.data);
+      });
+
+
+    }
+  
+  },[]);
 
     return (
         <>

@@ -74,7 +74,7 @@ const Navbar = () => {
       </div>
       <div className='navbar_container2'>
       <Link to="/" className="btn">Home</Link>
-      <Link to="/national" className="btn">National</Link>
+      {/* <Link to="/national" className="btn">National</Link> */}
       <Link to="/entertentment" className="btn">Entertentment</Link>
       <Link to="/technology" className="btn">Technology</Link>
       <Link to="/us" className="btn">Us</Link>

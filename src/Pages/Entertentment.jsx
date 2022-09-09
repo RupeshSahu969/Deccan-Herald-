@@ -15,12 +15,12 @@ const Entertentment = () => {
   useEffect(() => {
     axios
       .get(
-        "https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=6f43be9f49cf4702b914421834ff3c3e"
+        "https://create-newapi.herokuapp.com/Entertenment"
       )
       .then((response) => {
-        console.log(response.data.articles, "response");
+        console.log(response.data, "response");
 
-        setData(response.data.articles);
+        setData(response.data);
       });
   }, []);
 

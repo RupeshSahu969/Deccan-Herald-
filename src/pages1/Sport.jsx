@@ -21,10 +21,10 @@ const Sport = () => {
   const API = "0262fcb147b7460fa66ab22d917cb183"
     if(sports.length === 0){
       axios({
-        url: `https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=${API}`,
+        url: "https://create-newapi.herokuapp.com/Sports",
         method: "GET",
       }).then((r) => {
-        setSports(r.data.articles);
+        setSports(r.data);
       });
 
 

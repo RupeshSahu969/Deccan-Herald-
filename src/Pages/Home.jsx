@@ -267,8 +267,9 @@ const Home = () => {
   return(
    <div>
     <Technology/>
-    <National/>
+    {/* <National/> */}
     <Business/>
+    {/* <Entertentment/> */}
     <Sport/>
  
    </div>

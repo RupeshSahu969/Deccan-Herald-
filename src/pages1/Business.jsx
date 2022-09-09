@@ -31,10 +31,10 @@ const Business = () => {
     const API = "8567baa900c743778110f4f711896408"
     if(business.length ==0){
       axios({
-        url: `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=${API}`,
+        url: 'https://create-newapi.herokuapp.com/business',
         method: "GET",
       }).then((r) => {
-         setBusiness(r.data.articles);
+         setBusiness(r.data);
       });
 
 

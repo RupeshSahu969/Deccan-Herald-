@@ -17,12 +17,12 @@ const UsDetails = () => {
   console.log(index,"useparambusiness")
 
   useEffect(()=>{
-    axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=b4a2302a208d497c84c94fa9944caf08`)
+    axios.get("https://create-newapi.herokuapp.com/US")
     .then((r)=>{
       
         console.log(r)
   
-        setEnterDet(r.data.articles[`${index}`])
+        setEnterDet(r.data[`${index}`])
     })
 },[index])
   return (

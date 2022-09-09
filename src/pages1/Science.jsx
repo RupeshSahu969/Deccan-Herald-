@@ -8,17 +8,20 @@ const Science = () => {
   const[data,setData] =useState([])
 
   useEffect(() => {
-    const API = "8567baa900c743778110f4f711896408"
+    // 0262fcb147b7460fa66ab22d917cb183
+  const API = "0262fcb147b7460fa66ab22d917cb183"
+    if(data.length === 0){
+      axios({
+        url: "https://create-newapi.herokuapp.com/Science",
+        method: "GET",
+      }).then((r) => {
+        setData(r.data);
+      });
+
+
+    }
   
-  
-  axios.get(`https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=${API}`)
-  .then((response) => {
-    console.log(response)
-  
-    setData(response.data.articles)
-  
-  })
-  },[])
+  },[]);
 
   return (
       <>
