@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+Project “Deccan-Herald ”
+Before I start my blog writing on the clone of the website, I want to thank Masai School for this great opportunity and for providing this great platform to enhance my coding and life skills.
+We have tried our level best to make use of the knowledge that we have gained so far at Masai School💚 to come up with our fourth project.
+✌️Getting Started:-
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It was a very challenging journey for me and for all my team members as we had to complete the project within the time of construct week, so we faced different challenges as it was our 4th project and we did not have any experience with React but we are working in a team So we started with planning and studying the website, then we distributed the workflow, the roles, and responsibilities and with great collaboration, we managed the work and completed this project.
 
-## Available Scripts
+👀Company Details:-
 
-In the project directory, you can run:
+We had to make a clone of the “ Deccan-Herald” website. this is a News website. which provides daily news according to your interests we added different sections so that customers easily get the news and some new feature function so that you fill easily in use.
 
-### `npm start`
+Tech Stacks used:-
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+we used HTML, CSS, javascript, and React with some osm libraries like Chakra and Bootstrap on our website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+😍
 
-### `npm test`
+body:-
+we have added much new functionality for showing News and features……….
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+footer:-
+# footer is like a root for a tree and a foot for life being its balances the connection between the user and us.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+we used some attractive packs where you can fully fill your need.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
