@@ -23,7 +23,7 @@ we have added much new functionality for showing News and features……….
 
 footer:-
 # footer is like a root for a tree and a foot for life being its balances the connection between the user and us.
-<img src="https://miro.medium.com/max/1100/1*a5-lNCQzA5r2DB1MqRIaEA.png> </img>
+<img src="https://miro.medium.com/max/1400/1*a5-lNCQzA5r2DB1MqRIaEA.png"></img>
 
 Learnings -
 We learned Time management and all became proficient in reading and understanding the code of team members.
