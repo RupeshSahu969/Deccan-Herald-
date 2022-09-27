@@ -4,6 +4,9 @@ We have tried our level best to make use of the knowledge that we have gained so
 ✌️Getting Started:-
 
 
+<img src="https://miro.medium.com/max/1400/1*xzKoj_f4sc0kQq0EqY7p1A.png"></img>
+
+
 👀Company Details:-
 
 We had to make a clone of the “ Deccan-Herald” website. this is a News website. which provides daily news according to your interests we added different sections so that customers easily get the news and some new feature function so that you fill easily in use.
