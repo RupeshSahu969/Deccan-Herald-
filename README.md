@@ -19,8 +19,16 @@ we used HTML, CSS, javascript, and React with some osm libraries like Chakra and
 
 body:-
 we have added much new functionality for showing News and features……….
+<img src="https://miro.medium.com/max/1100/1*lpPxzktmd0eljfMpWoS0Eg.png"></img>
 
+footer:-
+# footer is like a root for a tree and a foot for life being its balances the connection between the user and us.
+<img src="https://miro.medium.com/max/1100/1*a5-lNCQzA5r2DB1MqRIaEA.png> </img>
 
-
-
+Learnings -
+We learned Time management and all became proficient in reading and understanding the code of team members.
+How to work and communicate like 
+How to be more efficient and productive at the same time.
+And also I got to know how  collaborations work, how to keep cool even under pressure conditions, and how to keep myself and  motivated throughout the project.
+At last, I would like to thank our mentors and guidance during this journey of the unit.
 
